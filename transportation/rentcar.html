@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+ 
+
+    </style>
+</head>
+<body>
+     <div id="container" class="main">
+	<div class="main-visual">
+		<!-- 통합검색 (agt별 /tempate/agent/jeju/main_search.html)-->
+		<fieldset class="form">
+	<legend class="sr-only">검색</legend>
+	<dl class="tab-menu" id="main_search_wrap">
+     <!--렌터카 검색 s-->
+		<dd >
+			<form name="frmSearchRC" id="frmSearchRC" method="get" action="/item/ren_list.html?agt=jeju">
+				<input type="hidden" name="agt" value="jeju">
+				<input type="hidden" name="price_min" value="">
+				<input type="hidden" name="price_max" value="">
+		
+				<div class="cont_ren">
+					<div class="clear col1">
+						<dl>
+							<dt>인수</dt> 
+							<dd>
+							<div class="box_text date">
+								<input type="text" class="inp_text" name="rc_sdate" 
+									placeholder="2019-06-19" value="2019-06-19" title="인수일 선택">
+							</div>
+								<div class="box_slt">
+									<select id="shm" name="shm"  class="inp_slt" title="대여일 시" >
+<option value="08:00" >08:00</option>
+<option value="08:30" >08:30</option>
+<option value="09:00" selected="selected">09:00</option>
+<option value="09:30" >09:30</option>
+<option value="10:00" >10:00</option>
+<option value="10:30" >10:30</option>
+<option value="11:00" >11:00</option>
+<option value="11:30" >11:30</option>
+<option value="12:00" >12:00</option>
+<option value="12:30" >12:30</option>
+<option value="13:00" >13:00</option>
+<option value="13:30" >13:30</option>
+<option value="14:00" >14:00</option>
+<option value="14:30" >14:30</option>
+<option value="15:00" >15:00</option>
+<option value="15:30" >15:30</option>
+<option value="16:00" >16:00</option>
+<option value="16:30" >16:30</option>
+<option value="17:00" >17:00</option>
+<option value="17:30" >17:30</option>
+<option value="18:00" >18:00</option>
+<option value="18:30" >18:30</option>
+<option value="19:00" >19:00</option>
+<option value="19:30" >19:30</option>
+<option value="20:00" >20:00</option>
+<option value="20:30" >20:30</option>
+</select>
+
+								</div>
+								
+							</dd>
+						</dl>
+						<span></span>
+					</div>
+					<div class="clear col1">
+						<dl>
+							<dt>반납</dt>
+							<dd>
+							<div class="box_text date">
+								<input type="text" class="inp_text" name="rc_edate" 
+									placeholder="2019-06-20" value="2019-06-20" title="반납일 선택">
+							</div>
+								<div class="box_slt">
+									<select id="ehm" name="ehm"  class="inp_slt" title="반납일 시" >
+<option value="08:00" >08:00</option>
+<option value="08:30" >08:30</option>
+<option value="09:00" selected="selected">09:00</option>
+<option value="09:30" >09:30</option>
+<option value="10:00" >10:00</option>
+<option value="10:30" >10:30</option>
+<option value="11:00" >11:00</option>
+<option value="11:30" >11:30</option>
+<option value="12:00" >12:00</option>
+<option value="12:30" >12:30</option>
+<option value="13:00" >13:00</option>
+<option value="13:30" >13:30</option>
+<option value="14:00" >14:00</option>
+<option value="14:30" >14:30</option>
+<option value="15:00" >15:00</option>
+<option value="15:30" >15:30</option>
+<option value="16:00" >16:00</option>
+<option value="16:30" >16:30</option>
+<option value="17:00" >17:00</option>
+<option value="17:30" >17:30</option>
+<option value="18:00" >18:00</option>
+<option value="18:30" >18:30</option>
+<option value="19:00" >19:00</option>
+<option value="19:30" >19:30</option>
+<option value="20:00" >20:00</option>
+</select>
+
+								</div>
+								
+							</dd>
+						</dl>
+						<span></span>
+					</div>
+					<!--
+					<div class="clear col3">
+						<dl>
+							<dt>가격</dt>
+							<dd>
+								<div class="box_slt">
+									<select class="inp_slt" title="가격" id="rc_sel_price">
+									</select>
+								</div>
+							</dd>
+						</dl>
+					</div>
+					-->
+					<div class="clear col4">
+						<div class="box_text">
+							<input type="text" name="searchstr" class="inp_text" placeholder="차량명" value="" title="차량명 입력">
+						</div>
+					</div>
+					<div class="btn-area"> <button type="submit" class="btn_comm">차량 검색</button> </div>
+				</div>
+			</form>
+		</dd>
+		<!--렌터카 검색 e--> 
+            </dl>
+        </fieldset>
+            </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+          
+      
+
+
+    </style>
+</head>
+<body>
+    <div id="container" class="main">
+	<div class="main-visual">
+		<!-- 통합검색 (agt별 /tempate/agent/jeju/main_search.html)-->
+		<fieldset class="form">
+	<legend class="sr-only">검색</legend>
+	<dl class="tab-menu" id="main_search_wrap">
+		<!--항공권 검색 s-->
+		
+		
+		
+		<dd style="display:block;">
+			
+			<form name="frmSearchAR" id="frmSearchAR" method="get" action="/item/air_list.html?agt=jeju">
+				<input type="hidden" name="agt" value="jeju">
+				<div class="cont_air">
+					<div class="group_choice">
+						<label class="lab_choice on">
+							<input type="radio" class="screen_out" name="flight_type" value="2" checked>
+							<span class="ico_comm ico_radio"></span> 왕복 </label>
+						<label class="lab_choice mgl20">
+							<input type="radio" class="screen_out" name="flight_type" value="1" >
+							<span class="ico_comm ico_radio"></span> 편도 </label>
+					</div>
+					
+					<div class="clear col2">
+						<dl>
+							<dt>출발지</dt>
+							<dd>
+								<div class="box_slt">
+									<select id="flight_scity" name="flight_scity"  class="inp_slt" title="출발지 선택"  >
+<option value="GMP" selected="selected">김포</option>
+<option value="ICN" >인천</option>
+<option value="PUS" >부산</option>
+<option value="CJU" >제주</option>
+<option value="KWJ" >광주</option>
+<option value="TAE" >대구</option>
+<option value="KPO" >포항</option>
+<option value="CJJ" >청주</option>
+<option value="MWX" >무안</option>
+<option value="RSU" >여수</option>
+<option value="USN" >울산</option>
+<option value="HIN" >진주</option>
+<option value="KUV" >군산</option>
+<option value="WJU" >원주</option>
+<option value="YNY" >양양</option>
+</select>
+
+								</div>
+							</dd>
+						</dl>
+						<span></span>
+						<dl>
+							<dt>도착지</dt>
+							<dd>
+								<div class="box_slt">
+									<select id="flight_ecity" name="flight_ecity"  class="inp_slt" title="도착지 선택"  >
+<option value="CJU" selected="selected">제주</option>
+<option value="PUS" >부산</option>
+<option value="KWJ" >광주</option>
+<option value="TAE" >대구</option>
+<option value="KPO" >포항</option>
+<option value="MWX" >무안</option>
+<option value="RSU" >여수</option>
+<option value="USN" >울산</option>
+<option value="HIN" >진주</option>
+<option value="YNY" >양양</option>
+</select>
+
+								</div>
+							</dd>
+						</dl>
+					</div>
+					<div class="clear col2">
+						<dl>
+							<dt>가는날</dt>
+							<dd>
+								<div class="box_text date">
+									<input type="text" class="inp_text dumy_date" name="flight_sdate" 
+										placeholder="2019-06-18" value="2019-06-18" title="가는날 선택">
+								</div>
+							</dd>
+						</dl>
+						<dl id="air_edate_wrap">
+							<dt>오는날</dt>
+							<dd>
+								<div class="box_text date">
+									<input type="text" class="inp_text dumy_date" name="flight_edate" 
+										placeholder="2019-06-20" value="2019-06-20" title="가는날 선택">
+								</div>
+							</dd>
+						</dl>
+					</div>
+					<div class="clear col3">
+						<dl>
+							<dt>성인</dt>
+							<dd>
+								<div class="box_slt">
+									<select id="boarding_adult" name="boarding_adult"  class="inp_slt" title="성인 수 선택"  >
+<option value="1" selected="selected">1명</option>
+<option value="2" >2명</option>
+<option value="3" >3명</option>
+<option value="4" >4명</option>
+<option value="5" >5명</option>
+<option value="6" >6명</option>
+<option value="7" >7명</option>
+<option value="8" >8명</option>
+<option value="9" >9명</option>
+</select>
+
+								</div>
+							</dd>
+						</dl>
+						<dl class="left pdl10">
+							<dt>소아</dt>
+							<dd>
+								<div class="box_slt">
+									<select id="boarding_junior" name="boarding_junior"  class="inp_slt" title="소아 수 선택"  >
+<option value="0" selected="selected">0명</option>
+<option value="1" >1명</option>
+<option value="2" >2명</option>
+<option value="3" >3명</option>
+<option value="4" >4명</option>
+<option value="5" >5명</option>
+<option value="6" >6명</option>
+<option value="7" >7명</option>
+<option value="8" >8명</option>
+<option value="9" >9명</option>
+</select>
+
+								</div>
+							</dd>
+						</dl>
+					
+					</div>
+					<div class="btn-area"> <button type="submit" class="btn_comm">실시간 항공 검색</button> </div>
+				</div>
+			</form>
+		</dd>
+            </dl>
+        </fieldset>
+        </div>
+    </div>
+		<!--항공권 검색 e-->
+</body>
+</html>

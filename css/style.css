@@ -1,0 +1,190 @@
+ul,
+li {
+    list-style: none;
+}
+
+header {
+    display: flex;
+}
+
+.headA img {
+    width: 150px;
+    margin-left: 0;
+}
+
+/*상단 메뉴바*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header_fix ul {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.header_fix li {
+    float: left;
+    margin: 15px;
+}
+
+.header_fix a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.header_fix .sub_gnb {
+    display: none;
+}
+
+.header_fix a:hover {
+    color: orange;
+}
+
+.header_fix:hover .sub_gnb {
+    display: block;
+
+}
+
+.recommend_tour .theme_list {
+    width: 100%;
+    display: inline-block;
+    margin-top: 30px;
+    border-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme_list .theme_li {
+    border: 1px solid #e5e5e5;
+    display: block;
+    padding: 15px;
+    width: 20%;
+    float: left;
+    text-align: center;
+    color: dimgray;
+}
+
+.recommend_area .item_list.type_thumb.type_1 li .item_section {
+    width: 366px;
+    height: 440px;
+}
+
+.clear {
+    clear: both;
+}
+
+.cont_wrap {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item_section {
+    float: left;
+    position: relative;
+    width: 270px;
+    height: 280px;
+    margin-left: 27px;
+    background: #fff;
+    -webkit-box-shadow: 3px 4px 5px 0 rgba(2, 2, 2, .2);
+    box-shadow: 3px 4px 5px 0 rgba(2, 2, 2, .2);
+    text-align: center;
+
+}
+
+.item_section .item_top a {
+    display: block;
+    position: relative
+}
+
+.item_section .item_top a img {
+    display: block;
+    width: 270px;
+    height: 140px
+}
+
+.item_section .item_top .s_day {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    padding: 0 13px;
+    background: #333;
+    font-size: 13px;
+    color: #fff;
+    line-height: 22px
+}
+
+.item_section .item_top .s_tit {
+    margin-top: 19px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px
+}
+
+.item_section .item_top .s_theme {
+    margin-top: 11px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px
+}
+
+.item_section .item_top .item_count {
+    padding: 15px 14px 8px
+}
+
+.item_section .item_top .item_count span {
+    font-size: 12px;
+    color: #8a8b8b;
+    line-height: 12px
+}
+
+.item_section .item_top .item_tag {
+    margin-top: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #535353;
+    line-height: 15px;
+    height: 15px;
+    width: 90%
+}
+
+.paging {
+    position: relative;
+    text-align: center;
+    padding-top: 70px
+}
+
+.paging .page-wrap {
+    display: inline-block
+}
+
+.paging .page-wrap:after {
+    display: block;
+    content: "";
+    clear: both
+}
+
+.paging .page-wrap a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px
+}
+
+.paging .page-wrap a.page-first,
+.paging .page-wrap a.page-last {
+    margin: 0 3px
+}
